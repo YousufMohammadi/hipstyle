@@ -559,3 +559,113 @@ button{
     color: #F81C11;
 }
 /* news section finished */
+/* footer section started */
+.footer{
+    width: 100%;
+    min-height: 70vh;
+    background-color: #161f23;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer-col{
+    width: calc(100% / 3);
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.footer-heading{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer-description{
+    width: 80%;
+    color: #999999;
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: "Roboto", sans-serif;
+}
+.footer-contact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.address,
+.phone{
+    font-size: 16px;
+    color: #fff;
+}
+.phone{
+    margin-top: 20px;
+}
+.address i,
+.phone i{
+    color: #F81C11;
+    margin-right: 10px;
+}
+.footer-text{
+    width: 70%;
+    color: #999999;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.footer-text__news{
+    width: 100%;
+    color: #999999;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.email-container{
+    position: relative;
+    width: 80%;
+    height: 50px;
+}
+input[type="email"]{
+    font-size: 13px;
+    font-weight: 400;
+    width: 80%;
+    height: 50px;
+    border: none;
+    background: transparent;
+    padding: 10px 20px;
+    color: #999999;
+    border: 1px solid #3f474b;
+    margin-top: 50px;
+}
+input[type="email"]::placeholder{
+    color: #777777;
+}
+.email-container i{
+    width: 17%;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    right: 3%;
+    background-color: #F81C11;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+/* footer section finished */
