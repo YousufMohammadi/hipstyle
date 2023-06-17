@@ -32,8 +32,12 @@ body{
 .link{
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 18px;
+    font-size: 14px;
     color: #fff;
+    transition: all 0.5s;
+}
+.link:hover{
+    color: #000;
 }
 /* header section finished */
 /* banner section started */
